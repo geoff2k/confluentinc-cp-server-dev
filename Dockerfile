@@ -1,4 +1,4 @@
-FROM confluentinc/cp-server:5.5.0
+FROM confluentinc/cp-server
 
 ENV KAFKA_ADVERTISED_LISTENERS="INTERNAL://localhost:9191,EXTERNAL://localhost:9092"
 ENV KAFKA_AUTHORIZER_CLASS_NAME="kafka.security.auth.SimpleAclAuthorizer"
